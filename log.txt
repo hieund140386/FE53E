@@ -37,3 +37,6 @@
     #8.1. vừa tạo nhánh mới, vừa di chuyển tới nhánh mới đó: git checkout -b tên_nhánh_mới
 
   #9. lấy code mới nhất từ master trên github về local repo: git pull origin master
+
+  #10. để merge nội dung từ carousel vào master, phải đứng ở nhánh master trước, dùng:
+    # git merge carousel 
