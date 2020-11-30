@@ -1,0 +1,12 @@
+# gitlab, github: đều dùng chứa repo
+
+#1. tạo git repo trên github server
+
+# public: chia sẽ với community (cho phép người khác clone project về)
+# private: không cho clone project về
+
+#2. đẩy code từ local pc lên remote repo trên github
+  
+  # kiểm tra version git: git --version
+  # khởi tạo git cho project: git init <== tạo local repo cho project trên local pc.
+  
