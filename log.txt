@@ -35,5 +35,4 @@
   #8. di chuyển từ nhánh master sang nhánh khác: git checkout tên_nhánh_muốn_chuyển_tới
 
     #8.1. vừa tạo nhánh mới, vừa di chuyển tới nhánh mới đó: git checkout -b tên_nhánh_mới
-    
-  
+
