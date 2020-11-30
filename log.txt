@@ -23,4 +23,7 @@
   #5. đẩy code trong local repo trên local pc lên remote 
     # repo trên github: git push origin tên_nhánh_chứa_code_cần_push_lên_remote_repo
 
-   
+  #6. để copy 1 project từ github về local pc: 
+    # tạo 1 folder để chứa project cần clone.
+    # mở: git bash  tại folder này
+    # trên git-bash terminal gõ: git clone url_tới_remote_git_repo
