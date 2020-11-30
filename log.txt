@@ -8,5 +8,19 @@
 #2. đẩy code từ local pc lên remote repo trên github
   
   # kiểm tra version git: git --version
-  # khởi tạo git cho project: git init <== tạo local repo cho project trên local pc.
-  
+
+  #1. khởi tạo git cho project: git init <== tạo local repo cho project trên local pc.
+
+      #1.1. cấu hình email và tên user_name trên github: git config --global email_đăng_ký_tài_khoản_github
+                                                       git config --global user_name_dùng_trên_tài_khoản_github
+
+  #2. đưa các file cần đưa lên github vào staging area: git adđ . <=== add tất cả các file vào staging area
+
+  #3. đưa các file từ trong staging area vào local repo trên pc: git commit -m "nội dung commit"
+
+  #4. gán local repo trên pc cho remote repo trên github: git remote add origin url_tới_remote_git_repo
+
+  #5. đẩy code trong local repo trên local pc lên remote 
+    # repo trên github: git push origin tên_nhánh_chứa_code_cần_push_lên_remote_repo
+
+   
